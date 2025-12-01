@@ -1,0 +1,39 @@
+Part b:
+
+[lzy219@n3442 p2]$ srun -n 1 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68939e-09  time=1.22068s
+
+[lzy219@n3442 p2]$ srun -n 2 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68931e-09  time=0.599027s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68917e-09  time=0.324864s
+
+[lzy219@n3442 p2]$ srun -n 8 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68919e-09  time=0.151086s
+
+[lzy219@n3442 p2]$ srun -n 16 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68916e-09  time=0.0780165s
+
+[lzy219@n3442 p2]$ srun -n 32 ./mpi_riemann_length 100000000
+MPI Parallel: L=6.16676  rel_err=1.68915e-09  time=0.0475977s
+
+Part c: 
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 10
+MPI Parallel: L=6.0671  rel_err=0.0161601  time=0.000104047s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 100
+MPI Parallel: L=6.15655  rel_err=0.00165633  time=0.00015276s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 1000
+MPI Parallel: L=6.16572  rel_err=0.000168588  time=0.0412667s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 10000
+MPI Parallel: L=6.16666  rel_err=1.68884e-05  time=9.8829e-05s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 100000
+MPI Parallel: L=6.16675  rel_err=1.68913e-06  time=0.000361974s
+
+[lzy219@n3442 p2]$ srun -n 4 ./mpi_riemann_length 1000000
+MPI Parallel: L=6.16676  rel_err=1.68916e-07  time=0.00307948s

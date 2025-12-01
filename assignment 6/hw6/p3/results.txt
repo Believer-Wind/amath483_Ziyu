@@ -1,0 +1,417 @@
+I used 100 passengers as a test
+
+(base) liaoziyu@liaoziyus-MacBook-Air p3 % ./hw6-elevator 100
+Person 0 wants to go from floor 7 to floor 49
+Elevator 0 moving to floor 7 to pick up Person 0
+Person 1 wants to go from floor 23 to floor 8
+Elevator 1 moving to floor 23 to pick up Person 1
+Elevator 0 moving to floor 49 with Person 0
+Elevator 1 moving to floor 8 with Person 1
+Person 1 exited elevator 1 at floor 8
+Person 2 wants to go from floor 30 to floor 22
+Elevator 3 moving to floor 30 to pick up Person 2
+Person 0 exited elevator 0 at floor 49
+Person 3 wants to go from floor 44 to floor 28
+Elevator 0 moving to floor 44 to pick up Person 3
+Elevator 0 moving to floor 28 with Person 3
+Elevator 3 moving to floor 22 with Person 2
+Person 2 exited elevator 3 at floor 22
+Person 3 exited elevator 0 at floor 28
+Person 4 wants to go from floor 23 to floor 9
+Elevator 0 moving to floor 23 to pick up Person 4
+Elevator 0 moving to floor 9 with Person 4
+Person 4 exited elevator 0 at floor 9
+Person 5 wants to go from floor 40 to floor 15
+Elevator 3 moving to floor 40 to pick up Person 5
+Person 6 wants to go from floor 42 to floor 37
+Elevator 0 moving to floor 42 to pick up Person 6
+Person 7 wants to go from floor 3 to floor 27
+Elevator 1 moving to floor 3 to pick up Person 7
+Elevator 1 moving to floor 27 with Person 7
+Elevator 3 moving to floor 15 with Person 5
+Person 7 exited elevator 1 at floor 27
+Elevator 0 moving to floor 37 with Person 6
+Person 8 wants to go from floor 29 to floor 40
+Elevator 4 moving to floor 29 to pick up Person 8
+Person 6 exited elevator 0 at floor 37
+Person 5 exited elevator 3 at floor 15
+Person 9 wants to go from floor 12 to floor 3
+Elevator 0 moving to floor 12 to pick up Person 9
+Elevator 4 moving to floor 40 with Person 8
+Person 8 exited elevator 4 at floor 40
+Elevator 0 moving to floor 3 with Person 9
+Person 9 exited elevator 0 at floor 3
+Person 10 wants to go from floor 19 to floor 9
+Elevator 5 moving to floor 19 to pick up Person 10
+Person 11 wants to go from floor 7 to floor 10
+Elevator 3 moving to floor 7 to pick up Person 11
+Elevator 3 moving to floor 10 with Person 11
+Person 11 exited elevator 3 at floor 10
+Elevator 5 moving to floor 9 with Person 10
+Person 10 exited elevator 5 at floor 9
+Person 12 wants to go from floor 33 to floor 49
+Elevator 3 moving to floor 33 to pick up Person 12
+Elevator 3 moving to floor 49 with Person 12
+Person 12 exited elevator 3 at floor 49
+Person 13 wants to go from floor 28 to floor 16
+Elevator 5 moving to floor 28 to pick up Person 13
+Person 14 wants to go from floor 35 to floor 47
+Elevator 4 moving to floor 35 to pick up Person 14
+Elevator 4 moving to floor 47 with Person 14
+Elevator 5 moving to floor 16 with Person 13
+Person 14 exited elevator 4 at floor 47
+Person 13 exited elevator 5 at floor 16
+Person 15 wants to go from floor 26 to floor 12
+Elevator 1 moving to floor 26 to pick up Person 15
+Elevator 1 moving to floor 12 with Person 15
+Person 15 exited elevator 1 at floor 12
+Person 16 wants to go from floor 17 to floor 10
+Elevator 1 moving to floor 17 to pick up Person 16
+Elevator 1 moving to floor 10 with Person 16
+Person 16 exited elevator 1 at floor 10
+Person 17 wants to go from floor 33 to floor 29
+Elevator 1 moving to floor 33 to pick up Person 17
+Elevator 1 moving to floor 29 with Person 17
+Person 17 exited elevator 1 at floor 29
+Person 18 wants to go from floor 49 to floor 29
+Elevator 4 moving to floor 49 to pick up Person 18
+Elevator 4 moving to floor 29 with Person 18
+Person 19 wants to go from floor 21 to floor 17
+Elevator 1 moving to floor 21 to pick up Person 19
+Person 20 wants to go from floor 22 to floor 43
+Elevator 5 moving to floor 22 to pick up Person 20
+Elevator 1 moving to floor 17 with Person 19
+Person 19 exited elevator 1 at floor 17
+Elevator 5 moving to floor 43 with Person 20
+Person 18 exited elevator 4 at floor 29
+Person 20 exited elevator 5 at floor 43
+Person 21 wants to go from floor 36 to floor 35
+Elevator 4 moving to floor 36 to pick up Person 21
+Elevator 4 moving to floor 35 with Person 21
+Person 21 exited elevator 4 at floor 35
+Person 22 wants to go from floor 45 to floor 28
+Elevator 4 moving to floor 45 to pick up Person 22
+Elevator 4 moving to floor 28 with Person 22
+Person 23 wants to go from floor 41 to floor 44
+Elevator 1 moving to floor 41 to pick up Person 23
+Person 24 wants to go from floor 7 to floor 1
+Elevator 0 moving to floor 7 to pick up Person 24
+Person 22 exited elevator 4 at floor 28
+Elevator 0 moving to floor 1 with Person 24
+Person 24 exited elevator 0 at floor 1
+Elevator 1 moving to floor 44 with Person 23
+Person 23 exited elevator 1 at floor 44
+Person 25 wants to go from floor 3 to floor 8
+Elevator 4 moving to floor 3 to pick up Person 25
+Person 26 wants to go from floor 44 to floor 18
+Elevator 1 moving to floor 44 to pick up Person 26
+Elevator 1 moving to floor 18 with Person 26
+Elevator 4 moving to floor 8 with Person 25
+Person 25 exited elevator 4 at floor 8
+Person 27 wants to go from floor 40 to floor 24
+Elevator 4 moving to floor 40 to pick up Person 27
+Person 26 exited elevator 1 at floor 18
+Person 28 wants to go from floor 46 to floor 30
+Elevator 0 moving to floor 46 to pick up Person 28
+Elevator 4 moving to floor 24 with Person 27
+Person 29 wants to go from floor 3 to floor 22
+Elevator 5 moving to floor 3 to pick up Person 29
+Person 27 exited elevator 4 at floor 24
+Elevator 0 moving to floor 30 with Person 28
+Person 28 exited elevator 0 at floor 30
+Person 30 wants to go from floor 16 to floor 49
+Elevator 2 moving to floor 16 to pick up Person 30
+Elevator 5 moving to floor 22 with Person 29
+Elevator 2 moving to floor 49 with Person 30
+Person 29 exited elevator 5 at floor 22
+Person 31 wants to go from floor 24 to floor 1
+Elevator 1 moving to floor 24 to pick up Person 31
+Person 32 wants to go from floor 3 to floor 27
+Elevator 4 moving to floor 3 to pick up Person 32
+Elevator 1 moving to floor 1 with Person 31
+Person 30 exited elevator 2 at floor 49
+Elevator 4 moving to floor 27 with Person 32
+Person 31 exited elevator 1 at floor 1
+Person 33 wants to go from floor 8 to floor 28
+Elevator 1 moving to floor 8 to pick up Person 33
+Elevator 1 moving to floor 28 with Person 33
+Person 32 exited elevator 4 at floor 27
+Person 33 exited elevator 1 at floor 28
+Person 34 wants to go from floor 33 to floor 48
+Elevator 1 moving to floor 33 to pick up Person 34
+Elevator 1 moving to floor 48 with Person 34
+Person 35 wants to go from floor 31 to floor 35
+Elevator 0 moving to floor 31 to pick up Person 35
+Elevator 0 moving to floor 35 with Person 35
+Person 35 exited elevator 0 at floor 35
+Person 34 exited elevator 1 at floor 48
+Person 36 wants to go from floor 13 to floor 15
+Elevator 1 moving to floor 13 to pick up Person 36
+Person 37 wants to go from floor 14 to floor 13
+Elevator 0 moving to floor 14 to pick up Person 37
+Elevator 1 moving to floor 15 with Person 36
+Person 36 exited elevator 1 at floor 15
+Elevator 0 moving to floor 13 with Person 37
+Person 37 exited elevator 0 at floor 13
+Person 38 wants to go from floor 36 to floor 25
+Elevator 3 moving to floor 36 to pick up Person 38
+Elevator 3 moving to floor 25 with Person 38
+Person 39 wants to go from floor 19 to floor 15
+Elevator 2 moving to floor 19 to pick up Person 39
+Person 38 exited elevator 3 at floor 25
+Person 40 wants to go from floor 44 to floor 29
+Elevator 5 moving to floor 44 to pick up Person 40
+Elevator 2 moving to floor 15 with Person 39
+Person 39 exited elevator 2 at floor 15
+Elevator 5 moving to floor 29 with Person 40
+Person 41 wants to go from floor 1 to floor 17
+Elevator 2 moving to floor 1 to pick up Person 41
+Person 40 exited elevator 5 at floor 29
+Person 42 wants to go from floor 45 to floor 5
+Elevator 5 moving to floor 45 to pick up Person 42
+Elevator 2 moving to floor 17 with Person 41
+Elevator 5 moving to floor 5 with Person 42
+Person 41 exited elevator 2 at floor 17
+Person 43 wants to go from floor 4 to floor 1
+Elevator 3 moving to floor 4 to pick up Person 43
+Person 42 exited elevator 5 at floor 5
+Elevator 3 moving to floor 1 with Person 43
+Person 43 exited elevator 3 at floor 1
+Person 44 wants to go from floor 48 to floor 38
+Elevator 1 moving to floor 48 to pick up Person 44
+Person 45 wants to go from floor 23 to floor 5
+Elevator 5 moving to floor 23 to pick up Person 45
+Elevator 1 moving to floor 38 with Person 44
+Elevator 5 moving to floor 5 with Person 45
+Person 44 exited elevator 1 at floor 38
+Person 46 wants to go from floor 32 to floor 2
+Elevator 0 moving to floor 32 to pick up Person 46
+Person 45 exited elevator 5 at floor 5
+Elevator 0 moving to floor 2 with Person 46
+Person 47 wants to go from floor 16 to floor 37
+Elevator 5 moving to floor 16 to pick up Person 47
+Person 46 exited elevator 0 at floor 2
+Elevator 5 moving to floor 37 with Person 47
+Person 47 exited elevator 5 at floor 37
+Person 48 wants to go from floor 38 to floor 44
+Elevator 5 moving to floor 38 to pick up Person 48
+Elevator 5 moving to floor 44 with Person 48
+Person 48 exited elevator 5 at floor 44
+Person 49 wants to go from floor 1 to floor 47
+Elevator 5 moving to floor 1 to pick up Person 49
+Person 50 wants to go from floor 21 to floor 28
+Elevator 0 moving to floor 21 to pick up Person 50
+Person 51 wants to go from floor 37 to floor 8
+Elevator 1 moving to floor 37 to pick up Person 51
+Elevator 1 moving to floor 8 with Person 51
+Elevator 0 moving to floor 28 with Person 50
+Person 50 exited elevator 0 at floor 28
+Person 52 wants to go from floor 27 to floor 47
+Elevator 0 moving to floor 27 to pick up Person 52
+Elevator 0 moving to floor 47 with Person 52
+Person 51 exited elevator 1 at floor 8
+Elevator 5 moving to floor 47 with Person 49
+Person 53 wants to go from floor 44 to floor 4
+Elevator 4 moving to floor 44 to pick up Person 53
+Person 52 exited elevator 0 at floor 47
+Elevator 4 moving to floor 4 with Person 53
+Person 54 wants to go from floor 9 to floor 31
+Elevator 0 moving to floor 9 to pick up Person 54
+Person 49 exited elevator 5 at floor 47
+Person 55 wants to go from floor 45 to floor 25
+Elevator 5 moving to floor 45 to pick up Person 55
+Elevator 5 moving to floor 25 with Person 55
+Person 53 exited elevator 4 at floor 4
+Elevator 0 moving to floor 31 with Person 54
+Person 55 exited elevator 5 at floor 25
+Person 56 wants to go from floor 35 to floor 48
+Elevator 5 moving to floor 35 to pick up Person 56
+Elevator 5 moving to floor 48 with Person 56
+Person 54 exited elevator 0 at floor 31
+Person 56 exited elevator 5 at floor 48
+Person 57 wants to go from floor 42 to floor 49
+Elevator 0 moving to floor 42 to pick up Person 57
+Elevator 0 moving to floor 49 with Person 57
+Person 57 exited elevator 0 at floor 49
+Person 58 wants to go from floor 18 to floor 12
+Elevator 0 moving to floor 18 to pick up Person 58
+Elevator 0 moving to floor 12 with Person 58
+Person 59 wants to go from floor 10 to floor 7
+Elevator 2 moving to floor 10 to pick up Person 59
+Person 58 exited elevator 0 at floor 12
+Elevator 2 moving to floor 7 with Person 59
+Person 59 exited elevator 2 at floor 7
+Person 60 wants to go from floor 44 to floor 8
+Elevator 2 moving to floor 44 to pick up Person 60
+Person 61 wants to go from floor 45 to floor 18
+Elevator 0 moving to floor 45 to pick up Person 61
+Person 62 wants to go from floor 13 to floor 30
+Elevator 4 moving to floor 13 to pick up Person 62
+Elevator 2 moving to floor 8 with Person 60
+Elevator 0 moving to floor 18 with Person 61
+Elevator 4 moving to floor 30 with Person 62
+Person 62 exited elevator 4 at floor 30
+Person 61 exited elevator 0 at floor 18
+Person 60 exited elevator 2 at floor 8
+Person 63 wants to go from floor 6 to floor 12
+Elevator 4 moving to floor 6 to pick up Person 63
+Person 64 wants to go from floor 42 to floor 15
+Elevator 5 moving to floor 42 to pick up Person 64
+Elevator 5 moving to floor 15 with Person 64
+Elevator 4 moving to floor 12 with Person 63
+Person 63 exited elevator 4 at floor 12
+Person 64 exited elevator 5 at floor 15
+Person 65 wants to go from floor 32 to floor 2
+Elevator 4 moving to floor 32 to pick up Person 65
+Elevator 4 moving to floor 2 with Person 65
+Person 66 wants to go from floor 17 to floor 21
+Elevator 3 moving to floor 17 to pick up Person 66
+Person 65 exited elevator 4 at floor 2
+Person 67 wants to go from floor 45 to floor 12
+Elevator 4 moving to floor 45 to pick up Person 67
+Elevator 3 moving to floor 21 with Person 66
+Person 66 exited elevator 3 at floor 21
+Person 68 wants to go from floor 21 to floor 1
+Elevator 3 moving to floor 21 to pick up Person 68
+Elevator 3 moving to floor 1 with Person 68
+Person 68 exited elevator 3 at floor 1
+Person 69 wants to go from floor 40 to floor 31
+Elevator 5 moving to floor 40 to pick up Person 69
+Elevator 4 moving to floor 12 with Person 67
+Elevator 5 moving to floor 31 with Person 69
+Person 69 exited elevator 5 at floor 31
+Person 67 exited elevator 4 at floor 12
+Person 70 wants to go from floor 38 to floor 7
+Elevator 4 moving to floor 38 to pick up Person 70
+Elevator 4 moving to floor 7 with Person 70
+Person 71 wants to go from floor 16 to floor 40
+Elevator 0 moving to floor 16 to pick up Person 71
+Elevator 0 moving to floor 40 with Person 71
+Person 70 exited elevator 4 at floor 7
+Person 71 exited elevator 0 at floor 40
+Person 72 wants to go from floor 40 to floor 29
+Elevator 2 moving to floor 40 to pick up Person 72
+Person 73 wants to go from floor 35 to floor 6
+Elevator 5 moving to floor 35 to pick up Person 73
+Elevator 5 moving to floor 6 with Person 73
+Person 74 wants to go from floor 22 to floor 48
+Elevator 4 moving to floor 22 to pick up Person 74
+Elevator 2 moving to floor 29 with Person 72
+Elevator 4 moving to floor 48 with Person 74
+Person 73 exited elevator 5 at floor 6
+Person 72 exited elevator 2 at floor 29
+Person 74 exited elevator 4 at floor 48
+Person 75 wants to go from floor 45 to floor 19
+Elevator 5 moving to floor 45 to pick up Person 75
+Person 76 wants to go from floor 4 to floor 23
+Elevator 3 moving to floor 4 to pick up Person 76
+Elevator 3 moving to floor 23 with Person 76
+Elevator 5 moving to floor 19 with Person 75
+Person 76 exited elevator 3 at floor 23
+Person 77 wants to go from floor 39 to floor 10
+Elevator 3 moving to floor 39 to pick up Person 77
+Person 75 exited elevator 5 at floor 19
+Person 78 wants to go from floor 5 to floor 26
+Elevator 5 moving to floor 5 to pick up Person 78
+Elevator 3 moving to floor 10 with Person 77
+Person 79 wants to go from floor 23 to floor 6
+Elevator 0 moving to floor 23 to pick up Person 79
+Elevator 5 moving to floor 26 with Person 78
+Elevator 0 moving to floor 6 with Person 79
+Person 77 exited elevator 3 at floor 10
+Person 80 wants to go from floor 13 to floor 20
+Elevator 3 moving to floor 13 to pick up Person 80
+Person 78 exited elevator 5 at floor 26
+Elevator 3 moving to floor 20 with Person 80
+Person 80 exited elevator 3 at floor 20
+Person 79 exited elevator 0 at floor 6
+Person 81 wants to go from floor 38 to floor 44
+Elevator 5 moving to floor 38 to pick up Person 81
+Elevator 5 moving to floor 44 with Person 81
+Person 81 exited elevator 5 at floor 44
+Person 82 wants to go from floor 20 to floor 44
+Elevator 5 moving to floor 20 to pick up Person 82
+Elevator 5 moving to floor 44 with Person 82
+Person 83 wants to go from floor 16 to floor 34
+Elevator 0 moving to floor 16 to pick up Person 83
+Elevator 0 moving to floor 34 with Person 83
+Person 82 exited elevator 5 at floor 44
+Person 83 exited elevator 0 at floor 34
+Person 84 wants to go from floor 26 to floor 44
+Elevator 0 moving to floor 26 to pick up Person 84
+Elevator 0 moving to floor 44 with Person 84
+Person 84 exited elevator 0 at floor 44
+Person 85 wants to go from floor 13 to floor 38
+Elevator 0 moving to floor 13 to pick up Person 85
+Person 86 wants to go from floor 44 to floor 40
+Elevator 1 moving to floor 44 to pick up Person 86
+Person 87 wants to go from floor 0 to floor 9
+Elevator 4 moving to floor 0 to pick up Person 87
+Elevator 0 moving to floor 38 with Person 85
+Elevator 1 moving to floor 40 with Person 86
+Person 86 exited elevator 1 at floor 40
+Person 88 wants to go from floor 23 to floor 47
+Elevator 1 moving to floor 23 to pick up Person 88
+Person 85 exited elevator 0 at floor 38
+Elevator 4 moving to floor 9 with Person 87
+Person 89 wants to go from floor 35 to floor 17
+Elevator 0 moving to floor 35 to pick up Person 89
+Elevator 0 moving to floor 17 with Person 89
+Person 87 exited elevator 4 at floor 9
+Person 90 wants to go from floor 22 to floor 39
+Elevator 5 moving to floor 22 to pick up Person 90
+Elevator 1 moving to floor 47 with Person 88
+Person 89 exited elevator 0 at floor 17
+Elevator 5 moving to floor 39 with Person 90
+Person 88 exited elevator 1 at floor 47
+Person 91 wants to go from floor 47 to floor 35
+Elevator 1 moving to floor 47 to pick up Person 91
+Elevator 1 moving to floor 35 with Person 91
+Person 90 exited elevator 5 at floor 39
+Person 91 exited elevator 1 at floor 35
+Person 92 wants to go from floor 46 to floor 35
+Elevator 1 moving to floor 46 to pick up Person 92
+Elevator 1 moving to floor 35 with Person 92
+Person 92 exited elevator 1 at floor 35
+Person 93 wants to go from floor 23 to floor 20
+Elevator 2 moving to floor 23 to pick up Person 93
+Elevator 2 moving to floor 20 with Person 93
+Person 93 exited elevator 2 at floor 20
+Person 94 wants to go from floor 44 to floor 18
+Elevator 2 moving to floor 44 to pick up Person 94
+Elevator 2 moving to floor 18 with Person 94
+Person 95 wants to go from floor 35 to floor 15
+Elevator 4 moving to floor 35 to pick up Person 95
+Person 94 exited elevator 2 at floor 18
+Elevator 4 moving to floor 15 with Person 95
+Person 95 exited elevator 4 at floor 15
+Person 96 wants to go from floor 25 to floor 34
+Elevator 2 moving to floor 25 to pick up Person 96
+Elevator 2 moving to floor 34 with Person 96
+Person 96 exited elevator 2 at floor 34
+Person 97 wants to go from floor 42 to floor 11
+Elevator 2 moving to floor 42 to pick up Person 97
+Elevator 2 moving to floor 11 with Person 97
+Person 98 wants to go from floor 29 to floor 2
+Elevator 1 moving to floor 29 to pick up Person 98
+Elevator 1 moving to floor 2 with Person 98
+Person 99 wants to go from floor 44 to floor 45
+Elevator 0 moving to floor 44 to pick up Person 99
+Person 97 exited elevator 2 at floor 11
+Person 98 exited elevator 1 at floor 2
+Elevator 0 moving to floor 45 with Person 99
+Person 99 exited elevator 0 at floor 45
+Elevator 2 has finished servicing all people.
+Elevator 2 serviced 10 passengers.
+Elevator 5 has finished servicing all people.
+Elevator 5 serviced 20 passengers.
+Elevator 0 has finished servicing all people.
+Elevator 0 serviced 23 passengers.
+Elevator 1 has finished servicing all people.
+Elevator 1 serviced 19 passengers.
+Elevator 3 has finished servicing all people.
+Elevator 3 serviced 11 passengers.
+Elevator 4 has finished servicing all people.
+Elevator 4 serviced 17 passengers.
+Job completed!
+Total passengers serviced by all elevators: 100

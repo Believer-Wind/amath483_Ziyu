@@ -1,0 +1,48 @@
+Part c record:
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 1 100000000
+Serial:   L=6.16676  rel_err=1.68939e-09  time=1.53256s
+Parallel: L=6.16676  rel_err=1.68939e-09  time=1.50154s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 2 100000000
+Serial:   L=6.16676  rel_err=1.68939e-09  time=1.50843s
+Parallel: L=6.16676  rel_err=1.68931e-09  time=0.780942s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 100000000
+Serial:   L=6.16676  rel_err=1.68939e-09  time=1.51377s
+Parallel: L=6.16676  rel_err=1.68917e-09  time=0.409269s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 8 100000000
+Serial:   L=6.16676  rel_err=1.68939e-09  time=1.53888s
+Parallel: L=6.16676  rel_err=1.68919e-09  time=0.320756s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 16 100000000
+Serial:   L=6.16676  rel_err=1.68939e-09  time=1.50293s
+Parallel: L=6.16676  rel_err=1.68916e-09  time=0.306943s
+
+
+Part d record:
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 10
+Serial:   L=6.08238  rel_err=0.0136834  time=1.625e-06s
+Parallel: L=6.08238  rel_err=0.0136834  time=8.675e-05s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 100
+Serial:   L=6.15655  rel_err=0.00165633  time=4.209e-06s
+Parallel: L=6.15655  rel_err=0.00165633  time=8.8167e-05s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 1000
+Serial:   L=6.16572  rel_err=0.000168588  time=3.1083e-05s
+Parallel: L=6.16572  rel_err=0.000168588  time=0.000139625s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 10000
+Serial:   L=6.16666  rel_err=1.68884e-05  time=0.00035s
+Parallel: L=6.16666  rel_err=1.68884e-05  time=0.000234166s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 100000
+Serial:   L=6.16675  rel_err=1.68913e-06  time=0.00313183s
+Parallel: L=6.16675  rel_err=1.68913e-06  time=0.00108808s
+
+(base) liaoziyu@liaoziyus-MacBook-Air p1 % ./riemann_length 4 1000000
+Serial:   L=6.16676  rel_err=1.68916e-07  time=0.024524s
+Parallel: L=6.16676  rel_err=1.68916e-07  time=0.00523092s
